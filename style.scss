@@ -1,0 +1,185 @@
+*,
+body {
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+section>nav {
+    margin: 0px 100px 0px 250px;
+}
+
+#section-01 {
+    background-color: rgb(10, 74, 177);
+    padding: 10px 0px;
+    .navbar {
+        display: flex;
+        margin: 0px 0px 0px 200px;
+        .logo {
+            display: flex;
+            margin-right: 20px;
+            .img {
+                margin-right: 50px;
+                span {
+                    color: #ffffff;
+                    margin-left: -85px;
+                    .span {
+                        color: yellow;
+                    }
+                }
+                img {
+                    width: 5vw;
+                    margin: 0px 0px 10px 0px;
+                }
+            }
+            .search {
+                input {
+                    width: 35vw;
+                    height: 4vh;
+                    padding: 1px 20px;
+                    margin-right: 150px;
+                }
+            }
+        }
+        #login {
+            display: flex;
+            margin: 0px 0px 0px 0px;
+            .links {
+                margin-right: 40px;
+                font-size: 20px;
+                input {
+                    font-size: 20px;
+                    padding: 4px 15px;
+                    width: 10vw;
+                    background-color: white;
+                    border: none;
+                }
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+// Image Gallary
+#items {
+    .row {
+        display: flex;
+        .gallary {
+            width: 11.01%;
+            margin: 20px 0px;
+            img {
+                margin-bottom: 5px;
+            }
+            a {
+                margin-left: -50%;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+//02
+.items {
+    .line {
+        width: 100vw;
+        background-color: aqua;
+        h1 {
+            margin: 20px 250px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            padding: 20px 0px;
+            font-size: 35px;
+            a {
+                color: red;
+            }
+        }
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px 30px 150px;
+        .picture {
+            width: 20%;
+            height: auto;
+            a {
+                color: black;
+                background-color: #ffffff;
+                padding: 5px 20px;
+                text-align: left;
+                margin-left: -200px;
+                margin-top: -100px;
+                position: relative;
+            }
+            img {
+                width: 15vw;
+                height: 30vh;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+//Footer Content
+.footer {
+    background-color: rgba(6, 25, 41, 0.945);
+    .flip-foot {
+        margin: 0px 100px;
+        .row {
+            display: flex;
+            padding: 10px 0px 50px 0px;
+            .col-lg-6 {
+                margin-right: 40px;
+                width: 16.6666%;
+                ul {
+                    #li {
+                        margin-bottom: 15px;
+                        text-transform: uppercase;
+                        font-size: 17px;
+                        color: rgb(131, 131, 131);
+                    }
+                    li {
+                        list-style: none;
+                        margin-bottom: 4px;
+                        a {
+                            text-decoration: none;
+                            color: #ffffff;
+                            font-size: 15px;
+                            font-size: smaller;
+                            font-weight: lighter;
+                            line-height: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    hr {
+        color: #ffffff;
+        width: 97%;
+        margin: 20px;
+        background-color: #ffffff;
+    }
+    .row {
+        margin-bottom: 20px;
+        display: flex;
+        .col-lg-5 {
+            width: 15.0000%;
+            color: #ffffff;
+            padding: 0px 0px 20px 0px;
+            margin-left: 25px;
+        }
+        .img01 {
+            width: 25%;
+            img {
+                margin-top: 15px;
+            }
+        }
+    }
+}
